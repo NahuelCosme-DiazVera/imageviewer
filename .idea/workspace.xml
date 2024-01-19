@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c290f498-24c6-4c9d-9feb-3afd2b058dc5" name="Changes" comment="FileImageLoader class created">
-      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/imageviewer/swing/SwingImageDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c290f498-24c6-4c9d-9feb-3afd2b058dc5" name="Changes" comment="NextImageCommand class created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +64,28 @@
       <option name="project" value="LOCAL" />
       <updated>1705696967904</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SwingImageDisplay class created">
+      <created>1705697556181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705697556181</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Command interface created">
+      <created>1705697684412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705697684412</updated>
+    </task>
+    <task id="LOCAL-00005" summary="NextImageCommand class created">
+      <created>1705697761122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705697761122</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +102,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Imageviewer with interfaces" />
     <MESSAGE value="FileImageLoader class created" />
-    <option name="LAST_COMMIT_MESSAGE" value="FileImageLoader class created" />
+    <MESSAGE value="SwingImageDisplay class created" />
+    <MESSAGE value="Command interface created" />
+    <MESSAGE value="NextImageCommand class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="NextImageCommand class created" />
   </component>
 </project>
