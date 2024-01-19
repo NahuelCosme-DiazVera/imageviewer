@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c290f498-24c6-4c9d-9feb-3afd2b058dc5" name="Changes" comment="Imageviewer with interfaces">
-      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/imageviewer/file/FileImageLoader.java" afterDir="false" />
+    <list default="true" id="c290f498-24c6-4c9d-9feb-3afd2b058dc5" name="Changes" comment="FileImageLoader class created">
+      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/imageviewer/swing/SwingImageDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705696742022</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FileImageLoader class created">
+      <created>1705696967904</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705696967904</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +83,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Imageviewer with interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Imageviewer with interfaces" />
+    <MESSAGE value="FileImageLoader class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="FileImageLoader class created" />
   </component>
 </project>
