@@ -20,15 +20,22 @@ public class MainFrame extends JFrame {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLayout(new BorderLayout());
         add(createImageDisplay());
-        add(createToolBar(), BorderLayout.SOUTH);
+        add(createWestToolBar(), BorderLayout.WEST);
+        add(createEastToolBar(), BorderLayout.EAST);
     }
 
-    private Component createToolBar() {
+    private Component createEastToolBar() {
         JPanel panel = new JPanel();
-        panel.add(createButton("<"));
         panel.add(createButton(">"));
         return panel;
     }
+
+    private Component createWestToolBar() {
+        JPanel panel = new JPanel();
+        panel.add(createButton("<"));
+        return panel;
+    }
+
 
     private Component createButton(String label) {
         JButton button = new JButton(label);

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c290f498-24c6-4c9d-9feb-3afd2b058dc5" name="Changes" comment="Main class created">
-      <change beforePath="$PROJECT_DIR$/src/software/ulpgc/imageviewer/file/FileImageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/software/ulpgc/imageviewer/file/FileImageLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/software/ulpgc/imageviewer/swing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/software/ulpgc/imageviewer/swing/Main.java" afterDir="false" />
+    <list default="true" id="c290f498-24c6-4c9d-9feb-3afd2b058dc5" name="Changes" comment="FileImageLoader with factory method">
+      <change beforePath="$PROJECT_DIR$/src/software/ulpgc/imageviewer/swing/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/software/ulpgc/imageviewer/swing/MainFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705698569456</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="FileImageLoader with factory method">
+      <created>1705698927671</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705698927671</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +130,7 @@
     <MESSAGE value="NextImageCommand class created" />
     <MESSAGE value="PreviousImageCommand class created" />
     <MESSAGE value="Main class created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main class created" />
+    <MESSAGE value="FileImageLoader with factory method" />
+    <option name="LAST_COMMIT_MESSAGE" value="FileImageLoader with factory method" />
   </component>
 </project>
