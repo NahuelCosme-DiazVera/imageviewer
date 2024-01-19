@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c290f498-24c6-4c9d-9feb-3afd2b058dc5" name="Changes" comment="NextImageCommand class created" />
+    <list default="true" id="c290f498-24c6-4c9d-9feb-3afd2b058dc5" name="Changes" comment="PreviousImageCommand class created">
+      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/imageviewer/swing/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/software/ulpgc/imageviewer/swing/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705697761122</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="PreviousImageCommand class created">
+      <created>1705697816891</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705697816891</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +116,7 @@
     <MESSAGE value="SwingImageDisplay class created" />
     <MESSAGE value="Command interface created" />
     <MESSAGE value="NextImageCommand class created" />
-    <option name="LAST_COMMIT_MESSAGE" value="NextImageCommand class created" />
+    <MESSAGE value="PreviousImageCommand class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="PreviousImageCommand class created" />
   </component>
 </project>
