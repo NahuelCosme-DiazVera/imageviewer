@@ -12,8 +12,12 @@ public class FileImageLoader implements ImageLoader {
     private final File[] files;
     private static final Set<String> imageExtensions = Set.of(".png", ".jpg");
 
-    public FileImageLoader(File folder) {
+    private FileImageLoader(File folder) {
         this.files = folder.listFiles(isImage());
+    }
+
+    public static FileImageLoader with(File folder) {
+        return new FileImageLoader(folder);
     }
 
     private FilenameFilter isImage() {
