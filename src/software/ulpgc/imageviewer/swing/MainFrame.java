@@ -26,13 +26,15 @@ public class MainFrame extends JFrame {
 
     private Component createEastToolBar() {
         JPanel panel = new JPanel();
-        panel.add(createButton(">"));
+        panel.setLayout(new GridBagLayout());
+        panel.add(createButton(">"), new GridBagConstraints());
         return panel;
     }
 
     private Component createWestToolBar() {
         JPanel panel = new JPanel();
-        panel.add(createButton("<"));
+        panel.setLayout(new GridBagLayout());
+        panel.add(createButton("<"), new GridBagConstraints());
         return panel;
     }
 
